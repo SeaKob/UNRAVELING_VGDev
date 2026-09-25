@@ -2233,7 +2233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelClock
   stage1Duration: 20
   stage2Duration: 20
-  stage3Duration: 20
+  stage3Duration: 30
   staredownDuration: 20
 --- !u!4 &984068095
 Transform:
@@ -3076,7 +3076,6 @@ MonoBehaviour:
   playerCamera: {fileID: 330585545}
   teacherState: {fileID: 2057058723}
   paranoiaIncreaseRate: 20
-  paranoiaDecreaseRate: 10
 --- !u!114 &1514480553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3589,7 +3588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeacherState
   animator: {fileID: 1081372145}
-  isFacingBoard: 1
+  state: 0
   turnDuration: 1.5
   minBoardTime: 10
   maxBoardTime: 11
